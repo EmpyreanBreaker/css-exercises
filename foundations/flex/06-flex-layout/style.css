@@ -24,3 +24,58 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/**SOLUTIOn**/
+ul {
+  list-style-type: none;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 20px;
+}
+
+.content {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input,
+.buttons {
+  align-self: center;
+}
+
+button {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
